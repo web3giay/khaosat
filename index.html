@@ -305,12 +305,12 @@ $(document).ready(function(){
             statusCode: {
                 0: function () {
                     alert('Xem lại nội dung gửi !');
-                    window.open('https://docs.google.com/spreadsheets/d/1VDSHpqPh-gjx1ZgIZ4XPTBszACazdhBF43udDzuvQKE/edit?usp=sharing', '_blank');
+                   window.location.replace('https://docs.google.com/spreadsheets/d/1VDSHpqPh-gjx1ZgIZ4XPTBszACazdhBF43udDzuvQKE/edit?usp=sharing', '_blank');
                    
                 },
                 200: function () {
                       alert('Xem lại nội dung gửi !');
-                   window.open('https://docs.google.com/spreadsheets/d/1VDSHpqPh-gjx1ZgIZ4XPTBszACazdhBF43udDzuvQKE/edit?usp=sharing', '_blank');
+                  window.location.replace('https://docs.google.com/spreadsheets/d/1VDSHpqPh-gjx1ZgIZ4XPTBszACazdhBF43udDzuvQKE/edit?usp=sharing', '_blank');
                 }
             }
         });
